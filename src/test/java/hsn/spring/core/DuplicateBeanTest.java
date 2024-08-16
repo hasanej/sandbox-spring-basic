@@ -1,6 +1,6 @@
 package hsn.spring.core;
 
-import hsn.spring.core.data.Foo;
+import hsn.spring.core.data.Example;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.NoUniqueBeanDefinitionException;
@@ -12,7 +12,7 @@ public class DuplicateBeanTest {
     void testDuplicateBean() {
         ApplicationContext context = new AnnotationConfigApplicationContext(DuplicateBeanConfiguration.class);
         Assertions.assertThrows(NoUniqueBeanDefinitionException.class, () -> {
-            Foo foo = context.getBean(Foo.class);
+            Example example = context.getBean(Example.class);
         });
     }
 
@@ -20,9 +20,9 @@ public class DuplicateBeanTest {
     void testGetBean() {
         ApplicationContext context = new AnnotationConfigApplicationContext(DuplicateBeanConfiguration.class);
 
-        Foo foo_1 = context.getBean("foo_1", Foo.class);
-        Foo foo_2 = context.getBean("foo_2", Foo.class);
+        Example example_1 = context.getBean("example_1", Example.class);
+        Example example_2 = context.getBean("example_2", Example.class);
 
-        Assertions.assertNotSame(foo_1, foo_2);
+        Assertions.assertNotSame(example_1, example_2);
     }
 }

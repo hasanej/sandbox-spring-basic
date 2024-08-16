@@ -1,4 +1,4 @@
 package hsn.spring.core.data;
 
-public class Foo {
+public class Example {
 }

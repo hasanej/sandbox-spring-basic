@@ -1,6 +1,6 @@
 package hsn.spring.core;
 
-import hsn.spring.core.data.Foo;
+import hsn.spring.core.data.Example;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.springframework.context.ApplicationContext;
@@ -17,9 +17,9 @@ public class BeanTest {
     void testGetBean() {
         ApplicationContext context = new AnnotationConfigApplicationContext(BeanConfiguration.class);
 
-        Foo foo_1 = context.getBean(Foo.class);
-        Foo foo_2 = context.getBean(Foo.class);
+        Example example_1 = context.getBean(Example.class);
+        Example example_2 = context.getBean(Example.class);
 
-        Assertions.assertSame(foo_1, foo_2);
+        Assertions.assertSame(example_1, example_2);
     }
 }

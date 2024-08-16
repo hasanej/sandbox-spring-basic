@@ -1,6 +1,6 @@
 package hsn.spring.core;
 
-import hsn.spring.core.data.Foo;
+import hsn.spring.core.data.Example;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -9,9 +9,9 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class BeanConfiguration {
     @Bean
-    public Foo foo() {
-        Foo foo = new Foo();
-        log.info("Foo created!");
-        return foo;
+    public Example example() {
+        Example example = new Example();
+        log.info("Example class created!");
+        return example;
     }
 }
