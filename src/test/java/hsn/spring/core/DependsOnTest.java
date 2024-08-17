@@ -1,5 +1,6 @@
 package hsn.spring.core;
 
+import hsn.spring.core.data.dependsOn.Crafting;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -20,5 +21,8 @@ public class DependsOnTest {
         * The log will show that the Armorer class created first
         * before Armor class.
         */
+
+        // Uncomment to see the Crafting class is load when needed
+        // context.getBean("crafting", Crafting.class);
     }
 }
