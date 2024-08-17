@@ -12,7 +12,7 @@ public class DuplicateBeanTest {
     void testDuplicateBean() {
         ApplicationContext context = new AnnotationConfigApplicationContext(DuplicateBeanConfiguration.class);
         Assertions.assertThrows(NoUniqueBeanDefinitionException.class, () -> {
-            Example example = context.getBean(Example.class);
+            context.getBean(Example.class);
         });
     }
 
