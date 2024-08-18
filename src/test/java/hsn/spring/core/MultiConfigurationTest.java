@@ -2,7 +2,6 @@ package hsn.spring.core;
 
 import hsn.spring.core.multiConfiguration.ConfigurationA;
 import hsn.spring.core.multiConfiguration.ConfigurationB;
-import hsn.spring.core.multiConfiguration.MainConfiguration;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
