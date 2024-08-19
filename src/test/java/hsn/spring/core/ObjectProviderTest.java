@@ -1,7 +1,7 @@
 package hsn.spring.core;
 
-import hsn.spring.core.objectProviderExample.ObjectProviderConfiguration;
-import hsn.spring.core.objectProviderExample.data.UserList;
+import hsn.spring.core.objectProvider.ObjectProviderConfiguration;
+import hsn.spring.core.objectProvider.data.UserList;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

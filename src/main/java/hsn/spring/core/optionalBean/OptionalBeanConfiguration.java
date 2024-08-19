@@ -1,8 +1,8 @@
-package hsn.spring.core.optionalBeanExample;
+package hsn.spring.core.optionalBean;
 
-import hsn.spring.core.optionalBeanExample.data.Store;
-import hsn.spring.core.optionalBeanExample.data.StoreManagement;
-import hsn.spring.core.optionalBeanExample.data.StoreManager;
+import hsn.spring.core.optionalBean.data.Store;
+import hsn.spring.core.optionalBean.data.StoreManagement;
+import hsn.spring.core.optionalBean.data.StoreManager;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

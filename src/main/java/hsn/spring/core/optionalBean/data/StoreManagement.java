@@ -1,4 +1,4 @@
-package hsn.spring.core.optionalBeanExample.data;
+package hsn.spring.core.optionalBean.data;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

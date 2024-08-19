@@ -1,4 +1,4 @@
-package hsn.spring.core.objectProviderExample.data;
+package hsn.spring.core.objectProvider.data;
 
 import lombok.Getter;
 import lombok.extern.slf4j.Slf4j;

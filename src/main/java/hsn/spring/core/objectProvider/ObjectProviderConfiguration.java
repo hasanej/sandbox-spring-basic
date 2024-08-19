@@ -1,7 +1,7 @@
-package hsn.spring.core.objectProviderExample;
+package hsn.spring.core.objectProvider;
 
-import hsn.spring.core.objectProviderExample.data.User;
-import hsn.spring.core.objectProviderExample.data.UserList;
+import hsn.spring.core.objectProvider.data.User;
+import hsn.spring.core.objectProvider.data.UserList;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Import;

@@ -1,8 +1,8 @@
 package hsn.spring.core;
 
-import hsn.spring.core.optionalBeanExample.OptionalBeanConfiguration;
-import hsn.spring.core.optionalBeanExample.data.Store;
-import hsn.spring.core.optionalBeanExample.data.StoreManagement;
+import hsn.spring.core.optionalBean.OptionalBeanConfiguration;
+import hsn.spring.core.optionalBean.data.Store;
+import hsn.spring.core.optionalBean.data.StoreManagement;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
